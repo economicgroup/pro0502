@@ -7,8 +7,8 @@
     <title>Бухгалтерский баланс</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/siski.css">
 </head>
-
 <body>
     <header class="header container">
         <img src="images/logo.jpg" alt="" width="100">
@@ -17,12 +17,47 @@
         </a>
     </header>
     <main>
-
-        
-        <form class="form" action="/submit" method="post">
-            <textarea  class="form__field"  name="message" rows="5" cols="30" placeholder="Введите
-            ваши данные"></textarea>
-            <input  class="form__button"  type="submit" value="Отправить">
+        <form class="form siski-form" action="/submit" method="post">
+            <div class="input-container">
+                <div class="input-label">
+                    Доходы ебучие:
+                </div>
+                <div class="input-field">
+                    <input
+                        class="input-buh"
+                        type="text"
+                        value=""
+                        placeholder="Дайте деняк"
+                    />
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-label">
+                    Инвестиции за сиськи:
+                </div>
+                <div class="input-field">
+                    <input
+                        class="input-buh"
+                        type="text"
+                        value=""
+                        placeholder="Дайте деняк"
+                    />
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-label">
+                    Помощь жертвам аниме:
+                </div>
+                <div class="input-field">
+                    <input
+                        class="input-buh"
+                        type="text"
+                        value=""
+                        placeholder="Дайте деняк"
+                    />
+                </div>
+            </div>
+            <input class="form__button" type="submit" value="Отправить">
         </form>
     </main>
     <footer class="footer__container">

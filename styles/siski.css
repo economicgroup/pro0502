@@ -1,0 +1,26 @@
+.siski-form {
+    display: flex;
+    flex-direction: column;
+}
+.input-container {
+    background-color: #868898;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.input-label {
+    width: 250px;
+    text-align: end;
+}
+.input-field {
+    width: 540px;
+}
+.input-buh {
+    border: 5px solid #49F5EA;
+    border-radius: 5px;
+    outline: none;
+}
